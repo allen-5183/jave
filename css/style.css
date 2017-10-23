@@ -1,0 +1,198 @@
+@charset "utf-8";
+#banner {
+	background-color: #7ac943;
+	height: 200px;
+	width: 1100px;
+	background-image: url(../images/banner.png);
+}
+/*導覽列*/
+
+#navbar {
+	background-color: #999999;
+	height: 30px;
+	color: #fff;
+	width: 1080px;
+	padding-top: 10px;
+	text-align: right;
+	padding-right: 20px;
+}
+#navbar a:link, #navbar a:visited {
+	color: #fff;
+	text-decoration: none;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 7px;
+	padding-right: 7px;
+	border-radius: 5px;
+}
+#navbar a:hover {
+	background-color: #cfcfcf;
+	color: #2b1919;
+}
+
+
+/*側邊攔*/
+#sidebar {
+	background-color: #ff7bac;
+	width: 200px;
+	float: left;
+}
+#sidebar ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+#sidebar ul li a:link, #sidebar ul li a:visited {
+	color: #fff;
+	text-decoration: none;
+	background-color: #999;
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 198px;
+	height: 20px;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #ccc;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #666;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #ccc;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #666;
+}
+
+#sidebar ul li a:hover {
+	background-color: #200;
+}
+
+/* 2017 招生班級 */ .adblock {
+	margin: 0px;
+	padding: 10px;
+	background-color: #6b5b41;
+	font-size: 12px;
+	color: #fff;
+	text-align: center
+}
+
+h3 {
+	font-weight: normal;
+}
+#main {
+	width: 900px;
+	float: right;
+}
+#footer {
+	background-color: #443928;
+	height: 20px;
+	width: 1100px;
+	clear: both;
+	color: #fff;
+	text-align: center;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+#container {
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #443928;
+	border-right-color: #443928;
+	border-bottom-color: #443928;
+	border-left-color: #443928;
+	background-image: url(../images/sidebar_bg.jpg);
+	background-repeat: repeat-x;
+}
+body {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.artmain img {
+	float: left;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	border-radius: 200px;
+	box-shadow: 2px 2px 1px 1px #999;
+}
+.artcontent {
+	font-size: 14px;
+	line-height: 20px;
+	color: #333;
+}
+h1 {
+	font-weight: normal;
+	font-size: 24px;
+	color: #900;
+	-webkit-transition: all 0.5s cubic-bezier(x1, y1, x2, y2) 0.5s;
+	-o-transition: all 0.5s cubic-bezier(x1, y1, x2, y2) 0.5s;
+	transition: all 0.5s cubic-bezier(x1, y1, x2, y2) 0.5s;
+}
+h1:hover {
+	color: #E9E9E9;
+	background-color: #77080A;
+}
+.artmain {
+	width: 750px;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #999;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+}
+#container #main .contactblock {
+	width: 600px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	font-size: 14px;
+	color: #333;
+}
+#container #main .contactblock form table {
+	font-size: 12px;
+	color: #333;
+	margin-right: auto;
+	margin-left: auto;
+}
+#container #main .contactblock form table tr td {
+	font-size: 10px;
+	padding: 10px;
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+#form1 input, #form1 textarea{
+	padding-top: 5px;
+	border: 1px dotted #633;
+}
+#container #main {
+}

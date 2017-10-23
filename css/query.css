@@ -1,0 +1,10 @@
+/*  for PC */
+@import url("style.css") screen and (min-width:700px);
+/*  for Mobile */
+@import url("mobile.css") screen and (max-width:699px);
+
+@import url("mobile320.css") screen and (max-width:320px);
+#container #main {
+	margin-right: auto;
+	margin-left: auto;
+}
